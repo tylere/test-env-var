@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test-env-var"
+  site-url: "https://tylere.github.io/test-env-var"
+  description: "Testing."
+  repo-branch: main
+  repo-url: "https://github.com/tylere/test-env-var"
