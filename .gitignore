@@ -149,7 +149,9 @@ checklink/cookies.txt
 
 # Quarto
 .quarto
+
 deps/execnb/
 deps/fastcore/
 deps/ghapi/
 deps/nbdev/
+**/*.local

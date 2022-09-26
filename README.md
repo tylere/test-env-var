@@ -20,4 +20,50 @@ Fill me in please! Don’t forget code examples:
 1+1
 ```
 
-    2
+``` python
+import os
+os.environ
+```
+
+    environ{'TERM_PROGRAM': 'Apple_Terminal',
+            'TERM': 'xterm-color',
+            'SHELL': '/bin/bash',
+            'TMPDIR': '/var/folders/n1/zjcrjn0d53n1jxtbft0s_k58004y52/T/',
+            'CONDA_SHLVL': '2',
+            'CONDA_PROMPT_MODIFIER': '(test-env-var) ',
+            'TERM_PROGRAM_VERSION': '445',
+            'OLDPWD': '/Users/tylere/Documents/GitHub/tylere',
+            'TERM_SESSION_ID': '1E78B2A4-1267-4DA7-81E5-3A44A88511CC',
+            'USER': 'tylere',
+            'CONDA_EXE': '/Users/tylere/miniconda3/bin/conda',
+            'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.yg4LiZhspI/Listeners',
+            'BASH_SILENCE_DEPRECATION_WARNING': '1',
+            '_CE_CONDA': '',
+            'CONDA_PREFIX_1': '/Users/tylere/miniconda3',
+            'SK_SIGNING_PLUGIN': 'gnubbyagent',
+            'PATH': '/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/tylere/google-cloud-sdk/bin:/Users/tylere/miniconda3/envs/test-env-var/bin:/Users/tylere/miniconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin',
+            'LaunchInstanceID': '8A444A9D-7CEB-45F5-BA92-CE03C9ED2C93',
+            'CONDA_PREFIX': '/Users/tylere/miniconda3/envs/test-env-var',
+            '__CFBundleIdentifier': 'com.apple.Terminal',
+            'PWD': '/Users/tylere/Documents/GitHub/tylere/test-env-var',
+            'LOG4J_FORMAT_MSG_NO_LOOKUPS': 'true',
+            'LANG': 'en_US.UTF-8',
+            'XPC_FLAGS': '0x0',
+            'HISTCONTROL': '',
+            '_CE_M': '',
+            'XPC_SERVICE_NAME': '0',
+            'HOME': '/Users/tylere',
+            'SHLVL': '1',
+            'CONDA_PYTHON_EXE': '/Users/tylere/miniconda3/bin/python',
+            'LOGNAME': 'tylere',
+            'GITHUB_TOKEN': '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',
+            'CONDA_DEFAULT_ENV': 'test-env-var',
+            'SECURITYSESSIONID': '186a5',
+            '_': '/Users/tylere/miniconda3/envs/test-env-var/bin/nbdev_preview',
+            '__CF_USER_TEXT_ENCODING': '0x278A2:0x0:0x0',
+            'MPLBACKEND': 'module://matplotlib_inline.backend_inline',
+            'QUARTO_PREVIEW': '1',
+            'CLICOLOR': '1',
+            'PAGER': 'cat',
+            'GIT_PAGER': 'cat',
+            'IN_TEST': '1'}
