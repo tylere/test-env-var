@@ -3,6 +3,8 @@ on:
   push:
     branches: [ "main", "master" ]
   workflow_dispatch:
+env:
+  TEST_ENV_VAR: "I am set in deploy.yaml."
 jobs:
   deploy:
     runs-on: ubuntu-latest
